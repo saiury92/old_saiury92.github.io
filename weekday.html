@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/weekday.css" />
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,700" rel="stylesheet" type="text/css">
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/weekday.js"></script>
+  <!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h2> Zeller's congruence for computing weekday from day, month, and year </h2>
+<div class="form">
+  <form class="form-inline" role="form">
+    <div class="form-group">
+      <label>Day:</label>
+      <input type="text" class="form-control" id="day" placeholder="Input day">
+    </div>
+    <div class="form-group">
+      <label>Month:</label>
+      <input type="text" class="form-control" id="month" placeholder="Input month">
+    </div>
+    <div class="form-group">
+      <label>Year:</label>
+      <input type="text" class="form-control" id="year" placeholder="Input year">
+    </div>
+  </form>
+</div>
+<div class="computer" id="computing">
+  <button type="button" class="btn btn-primary">Computing</button>
+</div>
+<div id="showMessage"></div>
+</body>
+</html>
